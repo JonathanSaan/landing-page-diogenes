@@ -183,14 +183,13 @@ html {
   color: #808080;
 }
 
-@media screen and (max-width: 1223px) {
+@media screen and (max-width: 1370px) {
   .about {
     align-items: flex-start;
     min-height: 25rem;
     height: 30vw;
   }
   .about.second {
-    margin: 8rem 0 0 0;
     height: 40vw;
   }
 
@@ -245,15 +244,21 @@ html {
   }
 
   .about {
-    min-height: 35rem;
+    min-height: 42rem;
+    height: 40vw;
   }
   .about.second {
-    height: 80vw;
+    min-height: 60rem;
+    height: 90vw;
   }
 
   .about #about_containerParagraph .about_containerParagraph-paragraph {
     margin: 0 0 4vw 0;
     width: 100%;
+  }
+
+  .phrase-title {
+    margin: 0;
   }
   .phrase {
     margin: 0 0 15vw 0;
@@ -298,10 +303,11 @@ html {
   }
 
   .about {
-    min-height: 50rem;
+    min-height: 55rem;
+    height: auto;
   }
   .about.second {
-    height: 255vw;
+    min-height: 90rem;
   }
 
   .phrase .phrase_container {
