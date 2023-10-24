@@ -67,20 +67,15 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
   height: 41vw;
 }
-.about.second {
-  height: 21vw;
-  width: auto;
-  margin: 0 auto;
-}
-
 .about #about_containerParagraph {
   margin: 0 0 0 7vw;
   max-width: 95vh;
 }
 .about.second #about_containerParagraph {
-  margin: 0;
+  margin: 0 7vw 0 0;
 }
 .about #about_containerParagraph .about_containerParagraph-paragraph {
   font-size: 1.5rem;
@@ -90,11 +85,15 @@ html {
 .about #about-image {
   -o-object-fit: contain;
   object-fit: contain;
-  margin: 0 auto;
+  margin: auto;
   height: 27vw;
+}
+.about.second  #about-image {
+  height:  30vw;
 }
 
 .phrase-title {
+  margin: 10rem 0 0 0;
   text-transform: uppercase;
   color: #f2f3f6;
   text-align: center;
@@ -173,7 +172,7 @@ html {
   justify-content:center;
   align-items:center;
   border-top: 1px solid #808080;
-  margin: 30rem 0 0 0;
+  margin: 5rem 0 0 0;
   height: 6rem;
   font-size: 2vh;
   color: #f2f3f6;
@@ -186,23 +185,25 @@ html {
 
 @media screen and (max-width: 1223px) {
   .about {
-    margin: 3rem 0 0 0;
-    min-height: 40rem;
+    align-items: flex-start;
+    min-height: 25rem;
+    height: 30vw;
   }
   .about.second {
-    padding: 7rem 0 0 0;
-    height: 21vw;
+    margin: 8rem 0 0 0;
+    height: 40vw;
   }
 
-  .about #about_containerParagraph {
-    width: 90%;
-  }
-  .about.second #about_containerParagraph {
+  .about #about_containerParagraph, .about.second #about_containerParagraph {
     margin: 0 auto;
     width: 86vw;
   }
   .about #about-image {
     display: none;
+  }
+
+  .phrase-title {
+    margin: 16rem 0 0 0;
   }
   .phrase {
     min-height: 50vh;
@@ -217,7 +218,7 @@ html {
   }
 
   #footer {
-    margin: 40vh 0 0 0;
+    margin: 7rem 0 0 0;
   }
 }
 
@@ -244,11 +245,12 @@ html {
   }
 
   .about {
-    min-height: 50rem;
+    min-height: 35rem;
   }
   .about.second {
-    padding: 3rem 0 0 0;
+    height: 80vw;
   }
+
   .about #about_containerParagraph .about_containerParagraph-paragraph {
     margin: 0 0 4vw 0;
     width: 100%;
@@ -295,8 +297,11 @@ html {
       #191919 0px -20vh 100px -50px inset;
   }
 
+  .about {
+    min-height: 50rem;
+  }
   .about.second {
-    padding: 2rem 0 0 0;
+    height: 255vw;
   }
 
   .phrase .phrase_container {
@@ -308,8 +313,5 @@ html {
   .phrase .phrase_container .phrase_container-card {
     height: 70vw;
     width: 70vw;
-  }
-  #footer {
-    margin: 60vh 0 0 0;
   }
 }
