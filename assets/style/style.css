@@ -84,6 +84,9 @@ html {
   color: #f2f3f6;
   margin: 0 0 1vw 0;
 }
+.about #about_containerParagraph .about_containerParagraph-paragraph a {
+  color: #808080;
+}
 .about #about-image {
   -o-object-fit: contain;
   object-fit: contain;
