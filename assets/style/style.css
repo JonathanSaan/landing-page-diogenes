@@ -38,7 +38,7 @@ html {
 .container_minicontainer-title {
   color: #f2f3f6;
   text-transform: uppercase;
-  font-size: 4.2vw;
+  font-size: 3rem;
   z-index: 2;
 }
 
@@ -101,6 +101,7 @@ html {
   margin: 10rem 0 0 0;
   text-transform: uppercase;
   color: #f2f3f6;
+  font-size: 2.5rem;
   text-align: center;
 }
 .phrase {
@@ -156,13 +157,13 @@ html {
   border: 1px solid #121212;
   border-radius: .7rem;
   margin: 0 auto;
-  padding: 1vw;
+  padding: 1rem 2rem;
   min-height: 22rem;
   height: 18vw;
   min-width: 22rem;
   width: 18vw;
   color: #f2f3f6;
-  font-size: 2vh;
+  font-size: 1rem;
 }
 .phrase .phrase_container .phrase_container-card:hover {
   border: 1px solid #f2f3f6;
@@ -178,7 +179,7 @@ html {
   align-items:center;
   margin: 5rem 0 0 0;
   height: 6rem;
-  font-size: 2vh;
+  font-size: 1rem;
   color: #f2f3f6;
 }
 
@@ -297,7 +298,7 @@ html {
   }
 
   #footer {
-    font-size: 1.8vh;
+    font-size: .8rem;
   }
 }
 
@@ -327,9 +328,15 @@ html {
     height: auto;
   }
   .about.second {
-    min-height: 90rem;
+    padding: 0 0 3rem 0;
+    height: auto;
   }
 
+  .phrase-title {
+    font-size: 1.8rem;
+    margin: 0 auto;
+    width: 15rem;
+  }
   .phrase .phrase_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -337,6 +344,7 @@ html {
     flex-direction: column;
   }
   .phrase .phrase_container .phrase_container-card {
+    padding: 1vw 3rem;
     height: 70vw;
     width: 70vw;
   }
